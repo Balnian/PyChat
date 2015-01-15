@@ -23,6 +23,7 @@ def HandShake():
 
 #def Listen(Sock):
 
+print("Vptre Adresse IP: {0}".format(sfn.IpAddress.get_local_address()))
 _thread.start_new_thread(HandShake,())
 print("Entrer la chaine de connection:")
 inp = input()
